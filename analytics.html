@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics</title>
+  <link rel="icon" href="images/icon.png" type="image/png" size="24x24"><!-- page icon -->
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'><!-- boxicons -->
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css"><!-- bootstrap -->
+  <link rel="stylesheet" href="css/index.css"><!-- custon style-->
+</head>
+
+<body>
+  <!-- start sidebar -->
+  <div class="sidebar open-nav">
+    <!-- start brand -->
+    <div class="brand">
+      <div class="logo">
+        <i class='bx bx-bookmarks'></i>
+        <span class="logo-text">education</span>
+      </div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <!-- end brand -->
+    <!-- start navbar-->
+    <nav class="navbar">
+      <ul class="nav">
+        <!-- <li class="nav-link" data-value="search">
+          <i class='bx bx-search' id="search"></i>
+          <input type="search" name="search" placeholder="search">
+        </li> -->
+
+        <li class="nav-link">
+          <a href="index.html">
+            <i class='bx bx-home'></i>
+            <span class="link-text">home</span>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="dashboard.html">
+            <i class='bx bx-grid-alt'></i>
+            <span class="link-text">dashboard</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="cours.html">
+            <i class='bx bx-book'></i>
+            <span class="link-text">cours</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="analytics.html">
+            <i class='bx bx-pie-chart-alt-2'></i>
+            <span class="link-text">analytics</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="message.html">
+            <i class='bx bx-message-rounded'></i>
+            <span class="link-text">message</span>
+          </a>
+        </li>
+        <!-- <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-folder'></i>
+              <span class="link-text">file manger</span>
+            </a>
+          </li> -->
+        <li class="nav-link">
+          <a href="wishlist.html">
+            <i class='bx bx-heart'></i>
+            <span class="link-text">wishlist</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="setting.html">
+            <i class='bx bx-customize'></i>
+            <span class="link-text">setting</span>
+          </a>
+        </li>
+      </ul>
+      <div class="tooltips">test</div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start profile -->
+    <div class="profile">
+      <div class="profile-content">
+        <div class="profile-details">
+          <img src="images/profile.jpg" alt="">
+          <div class="name-job">
+            <span class="name">saber belkhir</span>
+            <span class="job">web developer</span>
+          </div>
+        </div>
+      </div>
+      <i class='bx bx-log-out' id="logout"></i>
+    </div>
+    <!-- end profile -->
+  </div>
+  <!-- end sidebar -->
+
+
+  <!-- start main -->
+  <main class="main">
+    <!-- start mobile-navbar -->
+    <nav class="mobile-navbar">
+      <!-- start brand -->
+      <div class="brand">
+        <div>
+          <i class='bx bx-left-arrow-circle' id="showNav"></i>
+        </div>
+      </div>
+      <!-- end brand -->
+      <!-- start logout -->
+      <div class="logout">
+        <a href="#">logout</a>
+        <i class='bx bx-log-out'></i>
+      </div>
+      <!-- end logout -->
+    </nav>
+    <!-- end mobile-navbar -->
+
+    <!-- start analytics -->
+    <section class="ed-analytics">
+      <div class="container-fluid">
+        <nav class="analytics-nav">
+          <h2>week</h2>
+          <div class="weekly-nav">
+            <div class="control left">
+              <i class='bx bx-chevron-left'></i>
+            </div>
+            <ul class="date-range">
+              <li>Nov 01 - Nov 07</li>
+              <li>Nov 08 - Nov 14</li>
+              <li>Nov 15 - Nov 21</li>
+              <li>Nov 22 - Nov 28</li>
+              <li>Nov 29 - Dec 05</li>
+              <li>Dec 06 - Dec 12</li>
+            </ul>
+            <div class="control right">
+              <i class='bx bx-chevron-right'></i>
+            </div>
+          </div>
+
+          <div class="this-week">
+            <a href="#">this week</a>
+          </div>
+
+        </nav>
+
+        <div class="analytics-content">
+
+          <div class="analytics-box">
+            <!-- start learning week-->
+            <div class="card learning week">
+              <div class="card-head">
+                <h2>learn time last week</h2>
+                <i class='bx bx-info-circle'></i>
+                <p class="hint">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  corrupti incidunt, qui vero aliquid debitis ex quis amet quo doloribus aliquam soluta consequuntur
+                  laudantium eius.</p>
+              </div>
+              <div class="card-content">
+                <div>33h 52m</div>
+                <div>
+                  <label>average :</label>
+                  <span>19h 36m</span>
+                </div>
+                <div>
+                  <i class='bx bx-up-arrow-alt'></i>
+                  <span>4%</span>
+                  <p>vs global 90-day-avg</p>
+                </div>
+              </div>
+            </div>
+            <!-- end learning week-->
+
+            <!-- start learning month -->
+            <div class="card learning month">
+              <div class="card-head">
+                <h2>learn time last month</h2>
+                <i class='bx bx-info-circle'></i>
+                <p class="hint">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  corrupti incidunt, qui vero aliquid debitis ex quis amet quo doloribus aliquam soluta consequuntur
+                  laudantium eius.</p>
+              </div>
+              <div class="card-content">
+                <div>109h 52m</div>
+                <div>
+                  <label>average :</label>
+                  <span>77h 36m</span>
+                </div>
+                <div>
+                  <i class='bx bx-up-arrow-alt'></i>
+                  <span>2%</span>
+                  <p>vs global 90-day-avg</p>
+                </div>
+              </div>
+            </div>
+            <!-- end learning month-->
+
+            <!-- start progress -->
+            <div class="card progress">
+              <div class="card-head">
+                <h2>progress last month</h2>
+                <i class='bx bx-info-circle'></i>
+                <p class="hint">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  corrupti incidunt, qui vero aliquid debitis ex quis amet quo doloribus aliquam soluta consequuntur
+                  laudantium eius.</p>
+              </div>
+              <div class="card-content">
+                <span class="percent">63%</span>
+                <div class="avg">
+                  <label>average:</label>
+                  <span>32%</span>
+                </div>
+                <div class="avg-percente">
+                  <i class='bx bx-up-arrow-alt'></i>
+                  <span>-3%</span>
+                  <p>vs global 90-day-avg</p>
+                </div>
+              </div>
+            </div>
+            <!-- end progress -->
+          </div>
+          <!-- start chart -->
+          <div class="chart-content">
+            <div class="chart-one">
+              <canvas id="ed-chart-one"></canvas>
+            </div>
+
+            <div class="chart-tow">
+              <canvas id="ed-chart-tow"></canvas>
+            </div>
+          </div>
+          <!-- end chart -->
+        </div>
+      </div>
+
+    </section>
+    <!-- end analytics -->
+
+  </main>
+  <!-- end main -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><!-- jquery -->
+  <script src="js/jquery.nicescroll.min.js"></script><!-- nicescroll -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"
+    integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- chartJs -->
+  <script src="js/index.js"></script><!-- custon script -->
+  <script>
+
+
+    // chart one 
+    Chart.defaults.font.family = "Poppins";
+    Chart.defaults.backgroundColor = "transparent";
+    let values = [110, 100, 300, 20, 50, 220, 305];
+    const ctx = document.getElementById('ed-chart-one');
+    const labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    const data = {
+      labels: labels,
+      datasets: [{
+        label: "learning time(Minute/Day)",
+        data: values,
+        borderColor: "#22509b",
+        backgroundColor: "#22509b",
+        // cubicInterpolationMode: 'monotone',
+        fill: false,
+        // tension: 0.4,
+      }],
+    };
+
+    const config = {
+      type: 'bar',
+      data: data,
+      options: {
+        responsive: true,
+        layout: {
+          pandding: 50,
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            suggestedMin: 0,
+            suggestedMax: 400,
+          },
+        },
+      }
+    };
+    const chart = new Chart(ctx, config);
+
+    // chart tow
+    let values2 = [33, 51, 61, 45, 39, 55];
+    const ctx2 = document.getElementById('ed-chart-tow');
+    const labels2 = [1, 2, 3, 4, 5, 6];
+
+    const data2 = {
+      labels: labels2,
+      datasets: [{
+        label: "learning time(last 6 week)",
+        data: values2,
+        borderColor: "#22509b",
+        backgroundColor: "#22509b",
+        // cubicInterpolationMode: 'monotone',
+        fill: false,
+        tension: 0.4,
+      }],
+    };
+    const config2 = {
+      type: 'line',
+      data: data2,
+      options: {
+        responsive: true,
+        layout: {
+          pandding: 50,
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            suggestedMin: 0,
+            suggestedMax: 100,
+          },
+        },
+      }
+    };
+    const chart2 = new Chart(ctx2, config2);
+
+
+    let weeks = document.querySelectorAll('.date-range li'),
+      controlLeft = document.querySelector('.ed-analytics .control.left'),
+      controlRight = document.querySelector('.ed-analytics .control.right'),
+      pos = 0;
+    weeks.forEach((week) => {
+      week.style.display = "none";
+    });
+    weeks[0].style.display = "block";
+
+    controlLeft.addEventListener('click', function () {
+      pos--;
+      if (pos < 0) {
+        pos = 0;
+      }
+      weeks.forEach((week) => {
+        week.style.display = "none";
+      });
+      weeks[pos].style.display = "block";
+      values = [210, 190, 10, 270, 50, 320, 105];
+    });
+
+    controlRight.addEventListener('click', function () {
+      pos++;
+      if (pos > weeks.length - 1) {
+        pos = weeks.length - 1;
+      }
+      weeks.forEach((week) => {
+        week.style.display = "none";
+      });
+      weeks[pos].style.display = "block";
+    });
+
+
+
+  </script>
+</body>
+
+</html>

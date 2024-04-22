@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wishlist</title>
+  <link rel="icon" href="images/icon.png" type="image/png" size="24x24"><!-- page icon -->
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'><!-- boxicons -->
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css"><!-- bootstrap -->
+  <link rel="stylesheet" href="css/index.css"><!-- custon style-->
+</head>
+
+<body>
+  <!-- start sidebar -->
+  <div class="sidebar open-nav">
+    <!-- start brand -->
+    <div class="brand">
+      <div class="logo">
+        <i class='bx bx-bookmarks'></i>
+        <span class="logo-text">education</span>
+      </div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <!-- end brand -->
+    <!-- start navbar-->
+    <nav class="navbar">
+      <ul class="nav">
+
+        <!-- <li class="nav-link" data-value="search">
+          <i class='bx bx-search' id="search"></i>
+          <input type="search" name="search" placeholder="search">
+        </li> -->
+
+        <li class="nav-link">
+          <a href="index.html">
+            <i class='bx bx-home'></i>
+            <span class="link-text">home</span>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="dashboard.html">
+            <i class='bx bx-grid-alt'></i>
+            <span class="link-text">dashboard</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="cours.html">
+            <i class='bx bx-book'></i>
+            <span class="link-text">cours</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="analytics.html">
+            <i class='bx bx-pie-chart-alt-2'></i>
+            <span class="link-text">analytics</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="message.html">
+            <i class='bx bx-message-rounded'></i>
+            <span class="link-text">message</span>
+          </a>
+        </li>
+        <!-- <li class="nav-link">
+          <a href="#">
+            <i class='bx bx-folder'></i>
+            <span class="link-text">file manger</span>
+          </a>
+        </li> -->
+        <li class="nav-link">
+          <a href="wishlist.html">
+            <i class='bx bx-heart'></i>
+            <span class="link-text">wishlist</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="setting.html">
+            <i class='bx bx-customize'></i>
+            <span class="link-text">setting</span>
+          </a>
+        </li>
+      </ul>
+      <div class="tooltips">test</div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start profile -->
+    <div class="profile">
+      <div class="profile-content">
+        <div class="profile-details">
+          <img src="images/profile.jpg" alt="">
+          <div class="name-job">
+            <span class="name">saber belkhir</span>
+            <span class="job">web developer</span>
+          </div>
+        </div>
+      </div>
+      <i class='bx bx-log-out' id="logout"></i>
+    </div>
+    <!-- end profile -->
+  </div>
+  <!-- end sidebar -->
+  <!-- start main -->
+  <main class="main">
+    <!-- start mobile-navbar -->
+    <nav class="mobile-navbar">
+      <!-- start brand -->
+      <div class="brand">
+        <div>
+          <i class='bx bx-left-arrow-circle' id="showNav"></i>
+        </div>
+      </div>
+      <!-- end brand -->
+      <!-- start logout -->
+      <div class="logout">
+        <a href="#">logout</a>
+        <i class='bx bx-log-out'></i>
+      </div>
+      <!-- end logout -->
+    </nav>
+    <!-- end mobile-navbar -->
+
+    <!-- start wishlist -->
+    <section class="wishlist">
+      <div class="wishlist-container">
+        <div class="wishlist-head">
+          <h2>wishlist</h2>
+          <div class="view-control">
+            <i class='bx bx-menu' id="wishlist-list"></i>
+            <i class='bx bx-grid-alt active' id="wishlist-grid"></i>
+          </div>
+        </div>
+
+        <div class="wishlist-content">
+          <ul>
+            <li class="box-item">
+              <a href="details.html">
+                <div class="box-head">
+                  <span>ES6</span>
+                </div>
+                <div class="info">
+                  <h2>cours name</h2>
+                  <p>cours intro Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="box-item">
+              <a href="details.html">
+                <div class="box-head">
+                  <span>laravel</span>
+                </div>
+                <div class="info">
+                  <h2>cours name</h2>
+                  <p>cours intro Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="box-item">
+              <a href="details.html">
+                <div class="box-head">
+                  <span>css3</span>
+                </div>
+                <div class="info">
+                  <h2>cours name</h2>
+                  <p>cours intro Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="box-item">
+              <a href="details.html">
+                <div class="box-head">
+                  <span>PHP</span>
+                </div>
+                <div class="info">
+                  <h2>cours name</h2>
+                  <p>cours intro Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="box-item">
+              <a href="details.html">
+                <div class="box-head">
+                  <span>python</span>
+                </div>
+                <div class="info">
+                  <h2>cours name</h2>
+                  <p>cours intro Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="box-item">
+              <a href="details.html">
+                <div class="box-head">
+                  <span>nodeJs</span>
+                </div>
+                <div class="info">
+                  <h2>cours name</h2>
+                  <p>cours intro Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+    <!-- end wishlist -->
+
+    <!-- start footer -->
+    <footer class="footer">
+      <div class="container">
+
+        <div class="footer-content">
+
+          <div class="column-box">
+            <h3></h3>
+            <ul>
+              <li><a href="#">Education Business</a></li>
+              <li><a href="#">Teach on Education</a></li>
+              <li><a href="#">About Education</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="column-box">
+            <h3></h3>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Help and support</a></li>
+              <li><a href="#">Affiliated</a></li>
+              <li><a href="#">Investors</a></li>
+            </ul>
+          </div>
+
+          <div class="column-box">
+            <h3></h3>
+            <ul>
+              <li><a href="#">Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Accessibility statement</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <div class="logo">
+            <i class="bx bx-bookmarks"></i>
+            <span>Education</span>
+          </div>
+          <div class="copy">
+            <p>&copy; copyright saber belkhir 2021</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- end footer -->
+
+  </main>
+  <!-- end main -->
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><!-- jquery -->
+  <script src="js/jquery.nicescroll.min.js"></script><!-- nicescroll -->
+
+  <script>
+    let boxItems = document.querySelectorAll('.wishlist-content ul .box-item'),
+      wishlistList = document.getElementById('wishlist-list'),
+      wishlistGrid = document.getElementById('wishlist-grid');
+
+    wishlistList.onclick = function () {
+      wishlistGrid.classList.remove('active')
+      this.classList.add('active');
+      boxItems.forEach((item) => {
+        item.classList.add('view-list');
+      });
+    }
+
+    wishlistGrid.onclick = function () {
+      wishlistList.classList.remove('active')
+      this.classList.add('active');
+      boxItems.forEach((item) => {
+        item.classList.remove('view-list');
+      });
+    }
+  </script>
+  <script src="js/index.js"></script><!-- custon script -->
+</body>
+
+</html>
